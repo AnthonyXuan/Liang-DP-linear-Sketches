@@ -43,3 +43,4 @@ class CountMedianSketch():
 
     def query(self, x):
         return statistics.median( j * table[i] for table, i, j in zip(self.C, self.h(x), self.g(x)))
+    
